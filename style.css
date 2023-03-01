@@ -105,3 +105,118 @@ main {
     box-shadow: inset -4px 4px 0 #222;
     font-size: 0.9rem;
 }
+
+/* Importando fonte do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap');
+
+/* Resetando margin, padding e box-sizing para todos os elementos */
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Oxanium',cursive;
+}
+
+/* Estilo do body */
+body{
+text-align: center;
+background: linear-gradient(to bottom, #6ab7f5, #fff);
+min-height: 100vh;
+}
+
+/* Estilo da tag main /
+main {
+/ Configurações para que a cor de fundo ou algo relacionado ocupe somente o espaço do conteúdo da imagem /
+display: inline-block;
+/ Configurações para que a margem do meu conteúdo tenha um espaçamento de 2% entre ele e o topo da página*/
+margin-top: 2%;
+padding: 15px;
+position: relative;
+}
+
+/* Estilo da classe pokedex */
+.pokedex{
+width: 100%;
+max-width: 425px;
+}
+
+/* Estilo da classe imagem_pokemon */
+.imagem_pokemon{
+position: absolute;
+bottom: 55%;
+left: 50%;
+transform: translate(-63%, 20%);
+height: 18%;
+}
+
+/* Estilo da classe pokemon_data */
+.pokemon_data{
+position: absolute;
+font-weight: 600;
+color: #aaa;
+top: 54.5%;
+right: 27%;
+font-size: clamp(8px, 5vw, 25px);
+}
+
+/* Estilo da classe pokemon_name */
+.pokemon_name{
+color: rgb(88, 87, 87);
+text-transform: uppercase;
+}
+
+/* Estilo da classe pokemon_number */
+.pokemon_number{
+color: black;
+}
+
+/* Estilo da classe form */
+.form{
+position: absolute;
+width: 65%;
+top: 65%;
+left: 13.5%;
+}
+
+/* Estilo da classe input_search */
+.input_search{
+width: 100%;
+padding: 4%;
+outline: none;
+border: 2px solid rgb(44, 44, 44);
+border-radius: 5px;
+font-weight: 600;
+color: rgb(71, 71, 71);
+font-size: clamp(8px, 5vw, 1rem);
+box-shadow: -3px 4px 0 #888, -5px 7px 0 #333 ;
+}
+
+/* Estilo da classe buttons */
+.buttons{
+position: absolute;
+bottom: 10%;
+left: 50%;
+width: 65%;
+transform: translate(-57%, 0);
+display: flex;
+gap: 20px;
+}
+
+/* Estilo da classe button */
+.button {
+width: 50%;
+padding: 4%;
+border: 2px solid #000;
+border-radius: 5px;
+font-size: clamp(8px, 5vw, 1rem);
+font-weight: 600;
+color: #fff;
+background-color: #444;
+box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
+}
+
+/* Estilo da classe button quando é clicado */
+.button:active{
+box-shadow: inset -4px 4px 0 #222;
+font-size: 0.9rem;
+}
