@@ -124,11 +124,9 @@ background: linear-gradient(to bottom, #6ab7f5, #fff);
 min-height: 100vh;
 }
 
-/* Estilo da tag main /
+
 main {
-/ Configurações para que a cor de fundo ou algo relacionado ocupe somente o espaço do conteúdo da imagem /
-display: inline-block;
-/ Configurações para que a margem do meu conteúdo tenha um espaçamento de 2% entre ele e o topo da página*/
+
 margin-top: 2%;
 padding: 15px;
 position: relative;
@@ -206,12 +204,12 @@ gap: 20px;
 .button {
 width: 50%;
 padding: 4%;
-border: 2px solid #000;
+border: 2px solid #0c0c0c;
 border-radius: 5px;
 font-size: clamp(8px, 5vw, 1rem);
 font-weight: 600;
 color: #fff;
-background-color: #444;
+background-color: #c00707;
 box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
 }
 
